@@ -2,7 +2,37 @@
     color: #f89d35
 }
 
+.bg-orange{
+    background-color: #f89d35
+}
+
+
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+}
+ul.list-inline li{
+    padding: 5px 10px;
+}
+
+ul.list-inline li:hover{
+    color: #f89d35
+}
+.donate:hover{
+    background-color: #863bae;
+}
+
+.navbar a{
+    color: black !important;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 2rem !important;
+}
+.navbar a:hover{
+    color: #f89d35 !important;
+    
+}
+
+ul .dropdown-menu:hover{
+    display: inline-block;
 }
