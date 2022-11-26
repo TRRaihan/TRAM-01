@@ -53,18 +53,18 @@
             </div>
         </section>
         <nav class="my-2 container">
-            <div class="row navbar navbar-expand-md navbar-light">
+            <div class="row container_fluid navbar navbar-expand-md navbar-light">
                 <div class="col-md-4 col-sm-12">
                     <img src="assets/images/logo.png" alt="logo" class="navbar-brand img-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav"> 
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav1"> 
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
                 <div class="col-md-8 col-sm-12">
-                    <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav" id="myNav">
+                    <div class="collapse navbar-collapse" id="myNav1">
+                        <ul class="navbar-nav me-auto">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="#" class="nav-link active">
                                 Home
                                 </a>
                             </li>
@@ -82,12 +82,36 @@
                                   <li><a class="dropdown-item" href="#">Causes Details</a></li>
                                 </ul>
                               </li>
-                            <li class="nav-item"><a href="#" class="nav-link">
-                                Pages+
-                            </a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">
-                                Blog+
-                            </a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown1" aria-haspopup="true" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Get Involve +
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                                  <li><a class="dropdown-item" href="#">Donate</a></li>
+                                  <li><a class="dropdown-item" href="#">Be a Volunteer</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown1" aria-haspopup="true" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Pages +
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                                  <li><a class="dropdown-item" href="#">Event</a></li>
+                                  <li><a class="dropdown-item" href="#">Event Single</a></li>
+                                  <li><a class="dropdown-item" href="#">Confirmation</a></li>
+                                  <li><a class="dropdown-item" href="#">404</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown1" aria-haspopup="true" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Blog +
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                                  <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                                  <li><a class="dropdown-item" href="#">Blog with Sidebar</a></li>
+                                  <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                                </ul>
+                              </li>
                             <li class="nav-item"><a href="#" class="nav-link">
                                 Contact
                             </a></li>
@@ -98,7 +122,19 @@
             </div>
         </nav>
     </header>
-	
+    <main>
+        <div class="banner container-fluid d-flex justify-content-center align-items-center text-center">
+            <div class="banner-text text-white mx-5">
+                <p class="fs-6">Small help can make change</p>
+                <p class="display-1 fw-bolder">New hope for
+                <br/>
+                    near future</p>
+                <p class="fs-6">Your small contribution means a lot. Natus officia amet hic
+                    <br> accusamus repellat magni reprehenderit dolorem.</p>
+                <button class="btn btn-warning py-2 px-4">DONATE NOW</button>
+            </div>
+        </div>
+    </main>
     
 	
     <script src="assets/js/bootstrap.bundle.min.js"></script>

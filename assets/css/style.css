@@ -25,14 +25,38 @@ ul.list-inline li:hover{
 .navbar a{
     color: black !important;
     font-size: 1rem;
-    font-weight: bold;
-    padding-left: 2rem !important;
+    font-weight: bolder;
+    padding-left: 1rem !important;
 }
-.navbar a:hover{
+a.nav-link:hover{
     color: #f89d35 !important;
+    transition: all .2s ease;
     
 }
 
 ul .dropdown-menu:hover{
     display: inline-block;
+}
+
+.dropdown-item{
+    padding: .8rem 6rem;
+}
+
+.dropdown-item:hover{
+    background-color: #f89d35;
+    color: white !important; 
+    transition: all .2s ease;
+}
+
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    height: 35rem;
+}
+
+main .banner button:hover{
+    background-color: #863bae;
+    color:white;
+    border:#863bae;
+    transition: all .2s ease;
 }
