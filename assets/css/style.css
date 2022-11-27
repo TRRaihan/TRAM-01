@@ -1,3 +1,9 @@
+
+*{
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
 .text-orange{
     color: #f89d35
 }
@@ -11,11 +17,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
-ul.list-inline li{
+ ul.list-inline li{
     padding: 5px 10px;
 }
 
-ul.list-inline li:hover{
+header ul.list-inline li:hover{
     color: #f89d35
 }
 .donate:hover{
@@ -55,6 +61,57 @@ ul .dropdown-menu:hover{
 }
 
 main .banner button:hover{
+    background-color: #863bae;
+    color:white;
+    border:#863bae;
+    transition: all .2s ease;
+}
+
+.heading{
+    font-family: 'Bitter', serif;
+}
+
+main .banner-text button{
+    padding: 15px 20px; 
+}
+
+h4{
+    font-family: 'Bitter', serif;
+}
+.video-img{
+    background-image: url(../images/bg-3.jpg);
+    background-size: cover;
+    height: 30rem;
+}
+
+.play-icon{
+    border-radius: 50%;
+}
+.video{
+    position: relative;
+}
+
+.video::before{
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.95);
+    width: 60%;
+    height: 100%;
+    z-index: -1;
+}
+.number{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.text h4:hover{
+    color:#f89d35;
+    transition: all .2s ease-in;
+}
+
+.text button:hover{
     background-color: #863bae;
     color:white;
     border:#863bae;
