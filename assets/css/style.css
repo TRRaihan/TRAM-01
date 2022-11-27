@@ -74,6 +74,14 @@ main .banner button:hover{
 main .banner-text button{
     padding: 15px 20px; 
 }
+main .banner-text button:hover{
+        background-color: #863bae;
+        color:white;
+        border:#863bae;
+        transition: all .2s ease;
+    }
+}
+
 
 h4{
     font-family: 'Bitter', serif;
@@ -116,4 +124,12 @@ h4{
     color:white;
     border:#863bae;
     transition: all .2s ease;
+}
+
+.gem{
+    height: 35rem;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../images/bg-3.jpg);
 }
